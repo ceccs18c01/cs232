@@ -1,0 +1,165 @@
+Script started on 2020-03-20 16:48:14+0530
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ ifconfi[Kig -a
+enp1s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 20:89:84:46:8b:a0  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 10441  bytes 852295 (852.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10441  bytes 852295 (852.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.225.25  netmask 255.255.255.0  broadcast 192.168.225.255
+        inet6 fe80::37c:705:58cb:911b  prefixlen 64  scopeid 0x20<link>
+        inet6 2409:4073:48c:19:c151:ed00:56ea:44db  prefixlen 64  scopeid 0x0<global>
+        inet6 2409:4073:48c:19:e38e:1992:6e1a:31c6  prefixlen 64  scopeid 0x0<global>
+        ether 2c:d0:5a:3b:5d:be  txqueuelen 1000  (Ethernet)
+        RX packets 102760  bytes 99954736 (99.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 61477  bytes 12049199 (12.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ root[K[K[Ku[Koute-n[K[K -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.225.1   0.0.0.0         UG    600    0        0 wlp2s0
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 wlp2s0
+192.168.225.0   0.0.0.0         255.255.255.0   U     600    0        0 wlp2s0
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ rout [K[Ke[Kte add default gw 192.168.0.2
+SIOCADDRT: Operation not permitted
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ cat ?[K/etc|[K\[K?[K/resi[Kolve[K.conf
+# This file is managed by man:systemd-resolved(8). Do not edit.
+#
+# This is a dynamic resolv.conf file for connecting local clients to the
+# internal DNS stub resolver of systemd-resolved. This file lists all
+# configured search domains.
+#
+# Run "systemd-resolve --status" to see details about the uplink DNS servers
+# currently in use.
+#
+# Third party programs must not access this file directly, but only through the
+# symlink at /etc/resolv.conf. To manage man:resolv.conf(5) in a different way,
+# replace this symlink by a static file or a different symlink.
+#
+# See man:systemd-resolved.service(8) for details about the supported modes of
+# operation for /etc/resolv.conf.
+
+nameserver 127.0.0.53
+options edns0
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ cat >>abc.tt[Kxt
+15678
+^Z
+[1]+  Stopped                 cat >> abc.txt
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ ssh cs18c01@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c01@14.139.189.217's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+422 packages can be updated.
+0 updates are security updates.
+
+You have mail.
+Last login: Fri Mar 20 16:45:57 2020 from 137.97.168.231
+$ mail
+"/var/mail/cs18c01": 1 message 1 new
+>N   1 cs18c01@cec-workst Fri Mar 20 16:47  16/590   adding me to the organiza
+? 
+Return-Path: <cs18c01@cec-workstation>
+X-Original-To: cs18c01@cec-workstation
+Delivered-To: cs18c01@cec-workstation
+Received: by cec-workstation (Postfix, from userid 1137)
+	id 379DB3E0C0E; Fri, 20 Mar 2020 16:47:23 +0530 (+0530)
+To: <ask@cec-workstation>
+Cc: <cs18c01@cec-workstation>
+Subject: adding me to the organization
+X-Mailer: mail (GNU Mailutils 2.99.99)
+Message-Id: <20200320111723.379DB3E0C0E@cec-workstation>
+Date: Fri, 20 Mar 2020 16:47:23 +0530 (+0530)
+From: cs18c01@cec-workstation
+
+sir ,
+ i have created github now and added repository cs232
+ pls add me to the organization
+? 
+No applicable message
+? rsync -ad[Kvc[K[K[Kabc[K[Kv abc.txt
+Unknown command: rsync
+? 
+No applicable message
+? exit
+$ rsync -av abc.txt
+sending incremental file list
+rsync: link_stat "/home/cs18c01/abc.txt" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.1]
+$ exit
+Connection to 14.139.189.217 closed.
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ scp abc.txt[K[K[K[K[K[K[K[K[K[K[Kcat >>pqr,[K.txt
+abhijith 121
+^Z
+[2]+  Stopped                 cat >> pqr.txt
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ scp pqr.txt cs18c01@14.139.189.217
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ scp pqr.txt cs18c01@14.139.189.217[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksftp cs18c01@14.139.189.217
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c01@14.139.189.217's password: 
+Connected to 14.139.189.217.
+sftp> put abc.txt
+Uploading abc.txt to /home/cs18c01/abc.txt
+abc.txt                                         0%    0     0.0KB/s   --:-- ETAabc.txt                                       100%    6     0.1KB/s   00:00    
+sftp> put pqr.txt
+Uploading pqr.txt to /home/cs18c01/pqr.txt
+pqr.txt                                         0%    0     0.0KB/s   --:-- ETApqr.txt                                       100%   13     0.1KB/s   00:00    
+sftp> rm abc.txt
+Removing /home/cs18c01/abc.txt
+sftp> rm pqr.txt
+Removing /home/cs18c01/pqr.txt
+sftp> 
+[3]+  Stopped                 sftp cs18c01@14.139.189.217
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ exit
+exit
+There are stopped jobs.
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ gedit w[Ksc[K[Kreport.txt
+
+Command 'gedit' not found, but can be installed with:
+
+sudo apt install gedit
+
+]0;mint@mint: ~/abhijith[01;32mmint@mint[00m:[01;34m~/abhijith[00m$ sudo apt install gedit
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  gedit-common
+Suggested packages:
+  gedit-plugins
+The following NEW packages will be installed:
+  gedit gedit-common
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 544 kB of archives.
+After this operation, 5000 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Working][0m[33m0% [Working][0m[33m0% [Connecting to archive.ubuntu.com (2001:67c:1360:8001::24)][0m                                                              Get:1 http://archive.ubuntu.com/ubuntu bionic/main amd64 gedit-common all 3.28.1-1ubuntu1 [137 kB]
+[33m                                                              0% [1 gedit-common 2133 B/137 kB 2%][0m[33m5% [1 gedit-common 36.0 kB/137 kB 26%][0m[33m16% [1 gedit-common 108 kB/137 kB 79%][0m[33m                     

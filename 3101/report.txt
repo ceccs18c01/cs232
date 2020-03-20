@@ -1,0 +1,48 @@
+CEC CS 18 C01
+ABHIJITH P
+
+--------------------------------
+#1: Aim/task
+     TO PERFORM BASIC LINUX COMMANDS 
+---------------------------------
+Command/Shell script/Program name
+#ls
+#alias
+#cat > abc.txt
+#sort -nk7 tecmint.txt
+#echo 'drüberspringen' | cut -b 5
+#paste -d : file1.txt file2.txt
+# grep q pqr.txt
+
+
+---------------------------------
+
+Input: (If relevant)
+file1.txt & file 2.txt(paste)
+pqr.txt(grep)
+abc.txt(cat)
+tecmint.txt(sort)
+-------------
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+same as above specified input files.
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+

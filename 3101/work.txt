@@ -1,0 +1,349 @@
+Script started on Friday 31 January 2020 09:44:49 AM IST
+]0;s4c1@ceclab2-System-Product-Name: ~[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~[00m$ mkdir chn[K[Keccs18c01
+]0;s4c1@ceclab2-System-Product-Name: ~[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~[00m$ cd ceccs18c01
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls -l
+total 0
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls -lt
+total 0
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls -ltr
+total 0
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls ab* -d
+ls: cannot access 'ab*': No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sa[K[Kalias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ alias ||='ls -al'
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ unalias ||
+> ~/.bash_aliasese[K
+unalias: usage: unalias [-a] name [name ...]
+bash: /home/s4c1/.bash_aliases: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ||>abc.tct
+bash: syntax error near unexpected token `||'
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ || > abc.tct
+bash: syntax error near unexpected token `||'
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat abc.txt
+cat: abc.txt: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat>abc.txt
+^z
+
+echo -e "computer\nmouse\nLAPTOP\ndata\nRedHat\nlaptop\ndebian\nlaptop" > tecmint.txt
+^[[A^[[A^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat>abc.txt[C[C >abc.txt[C abc.txt[C[C[C[C[C[C[C[C[C[C
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ echo -e "computer\nmouse\nLAPTOP\ ndata\nRedHat\nlaptop\ndebian\nlaptop" > tecmint.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat tecmint.txt
+computer
+mouse
+LAPTOP
+data
+RedHat
+laptop
+debian
+laptop
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort tecmint.txt
+computer
+data
+debian
+laptop
+laptop
+LAPTOP
+mouse
+RedHat
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort tecmint.txt > sorted.tx[K[K[K tecmint .txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat sorted.txt
+cat: sorted.txt: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat > sorted.txt
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort -n fn
+sort: cannot read: fn: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ fn start
+fn: command not found
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ s[K[K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ ls -l /home/$USER > /home/$USER/D esktop/tecmint/lsl.txt
+bash: /home/s4c1/Desktop/tecmint/lsl.txt: No such file or directory
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ $ cat lsl.txt
+$: command not found
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat>[K > tecmint.txt
+1
+2
+3]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort [K -n tecmint.txt
+1
+2
+3
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort -nk7 tecmint.txt
+1
+2
+3
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sortr[K -mk1[K[K[Knk1 r[Ktecmint.txt
+1
+2
+3
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sort -t'$\t[Kt' -k7 tecmint.txt
+sort: multi-character tab ‘$\\t’
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ tex[Kset.txt
+\teset.txt: command not found
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ \[Kcat > tse[K[Kest.ts[Kxt
+245:789 4567    M:4540  Admin   01:10:1980
+535:763 4987    M:3476  Sales   11:04:1978
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cut test.txt -f 1,3
+245:789 4567    M:4540  Admin   01:10:1980
+535:763 4987    M:3476  Sales   11:04:1978
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ man cut
+[?1049h[?1h=CUT(1)                           User Commands                          CUT(1)[m
+[m
+[1mNAME[0m[m
+       cut - remove sections from each line of files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcut[0m [4mOPTION[24m... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print selected parts of lines from each FILE to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m[m
+              select only these bytes[m
+[m
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m[m
+              select only these characters[m
+[m
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m[m
+[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use DELIM instead of TAB for field delimiter[m
+[7m Manual page cut(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--fields[0m=[4mLIST[24m[m
+[7m Manual page cut(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              select only these fields;  also print any line that contains  no[m
+[7m Manual page cut(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              delimiter character, unless the [1m-s[0m option is specified[m
+[7m Manual page cut(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m     (ignored)[m
+[7m Manual page cut(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--complement[0m[m
+[7m Manual page cut(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              complement the set of selected bytes, characters or fields[m
+[7m Manual page cut(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--only-delimited[0m[m
+[7m Manual page cut(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not print lines not containing delimiters[m
+[7m Manual page cut(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--output-delimiter[0m=[4mSTRING[24m[m
+[7m Manual page cut(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              use  STRING  as  the  output delimiter the default is to use the[m
+[7m Manual page cut(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              input delimiter[m
+[7m Manual page cut(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[7m Manual page cut(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              line delimiter is NUL, not newline[m
+[7m Manual page cut(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[7m Manual page cut(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page cut(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[7m Manual page cut(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page cut(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Use one, and only one of [1m-b[0m, [1m-c[0m or [1m-f[0m.  Each LIST is  made  up  of  one[m
+[7m Manual page cut(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       range,  or  many ranges separated by commas.  Selected input is written[m
+[7m Manual page cut(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              delimiter character, unless the [1m-s[0m option is specified[m
+[24;1H[K[7m Manual page cut(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select only these fields;  also print any line that contains  no[m
+[24;1H[K[7m Manual page cut(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--fields[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              use DELIM instead of TAB for field delimiter[m
+[24;1H[K[7m Manual page cut(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m[m
+[24;1H[K[7m Manual page cut(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select only these characters[m
+[24;1H[K[7m Manual page cut(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-c[0m, [1m--characters[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              select only these bytes[m
+[24;1H[K[7m Manual page cut(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m[m
+[24;1H[K[7m Manual page cut(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       too.[m
+[24;1H[K[7m Manual page cut(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Mandatory  arguments  to  long  options are mandatory for short options[m
+[24;1H[K[7m Manual page cut(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       With no FILE, or when FILE is -, read standard input.[m
+[24;1H[K[7m Manual page cut(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Print selected parts of lines from each FILE to standard output.[m
+[24;1H[K[7m Manual page cut(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[24;1H[K[7m Manual page cut(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mcut[0m [4mOPTION[24m... [[4mFILE[24m]...[m
+[24;1H[K[7m Manual page cut(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[24;1H[K[7m Manual page cut(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       cut - remove sections from each line of files[m
+[24;1H[K[7m Manual page cut(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[24;1H[K[7m Manual page cut(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[24;1H[K[7m Manual page cut(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMCUT(1)                           User Commands                          CUT(1)[m
+[24;1H[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ man cut
+[?1049h[?1h=CUT(1)                           User Commands                          CUT(1)[m
+[m
+[1mNAME[0m[m
+       cut - remove sections from each line of files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcut[0m [4mOPTION[24m... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print selected parts of lines from each FILE to standard output.[m
+[m
+       With no FILE, or when FILE is -, read standard input.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for short options[m
+       too.[m
+[m
+       [1m-b[0m, [1m--bytes[0m=[4mLIST[24m[m
+              select only these bytes[m
+[m
+       [1m-c[0m, [1m--characters[0m=[4mLIST[24m[m
+              select only these characters[m
+[m
+       [1m-d[0m, [1m--delimiter[0m=[4mDELIM[24m[m
+[7m Manual page cut(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cu[K[Kman cutcut test.txt -f 1,3[C[1P[1P[1P[1P[1P[1P[1P[1P[C[C[1P[C[C[C[C[C[C[C test.txt
+245:789 4567    M:4540  Admin   01:10:1980
+535:763 4987    M:3476  Sales   11:04:1978
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cut [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cut d[K-d[K[K[K[K[K[Kecho "Lorem ipsum dolor sit amet" cu[K[K|cu[K[K[K^C[A
+
+No command 'cho' found, did you mean:
+ Command 'who' from package 'coreutils' (main)
+ Command 'co' from package 'rcs' (universe)
+ Command 'cht' from package 'chemtool' (universe)
+ Command 'echo' from package 'coreutils' (main)
+ Command 'cdo' from package 'cdo' (universe)
+cho: command not found
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ co[Kut -d ' ' -f 2
+
+
+^C
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ echo 'drüberspringen' | cut -b 5
+b
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ echo "Lorem ipsum dolor sit amet"  | cut -d ' ' -f 2
+ipsum
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cut test.txt -d ':' -f 1,3
+245:4540  Admin   01
+535:3476  Sales   11
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat > file1.txt
+1
+2
+3
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat > file2.txt
+o9i   india
+ausr tralia
+spain
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ aste -d : file1.txt file2.txt fil e3.txt[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpaste -d : file1.txt file2.txt
+1:india
+2:australia
+3:spain
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ [K]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ cat > pqr.txt
+abc
+qwe
+123
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep -c
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep -c pqr.tcx[K[Kxt
+hw ello
+0
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep "abc\|xyz" pqre.txt[1P.txt
+[01;31m[Kabc[m[K
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep -E "abc|xyz" pqr.txt AND gre p -E 'pattern1.*pattern2' pqr.txt
+[35m[Kpqr.txt[m[K[36m[K:[m[K[01;31m[Kabc[m[K
+grep: AND: No such file or directory
+grep: grep: No such file or directory
+grep: pattern1.*pattern2: No such file or directory
+[35m[Kpqr.txt[m[K[36m[K:[m[K[01;31m[Kabc[m[K
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep –E pqr.txt
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ 
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep -E
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep --ha[Kelp
+Usage: grep [OPTION]... PATTERN [FILE]...
+Search for PATTERN in each FILE or standard input.
+PATTERN is, by default, a basic regular expression (BRE).
+Example: grep -i 'hello world' menu.h main.c
+
+Regexp selection and interpretation:
+  -E, --extended-regexp     PATTERN is an extended regular expression (ERE)
+  -F, --fixed-strings       PATTERN is a set of newline-separated strings
+  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)
+  -P, --perl-regexp         PATTERN is a Perl regular expression
+  -e, --regexp=PATTERN      use PATTERN for matching
+  -f, --file=FILE           obtain PATTERN from FILE
+  -i, --ignore-case         ignore case distinctions
+  -w, --word-regexp         force PATTERN to match only whole words
+  -x, --line-regexp         force PATTERN to match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM matches
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print the file name for each match
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only the part of a line matching PATTERN
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=FILE_PATTERN  search only files that match FILE_PATTERN
+      --exclude=FILE_PATTERN  skip files and directories matching FILE_PATTERN
+      --exclude-from=FILE   skip files matching any file pattern from FILE
+      --exclude-dir=PATTERN  directories that match PATTERN will be skipped.
+  -L, --files-without-match  print only names of FILEs containing no match
+  -l, --files-with-matches  print only names of FILEs containing matches
+  -c, --count               print only a count of matching lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+  -u, --unix-byte-offsets   report offsets as if CRs were not there
+                            (MSDOS/Windows)
+
+'egrep' means 'grep -E'.  'fgrep' means 'grep -F'.
+Direct invocation as either 'egrep' or 'fgrep' is deprecated.
+When FILE is -, read standard input.  With no FILE, read . if a command-line
+-r is given, - otherwise.  If fewer than two FILEs are given, assume -h.
+Exit status is 0 if any line is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <http://www.gnu.org/gethelp/>
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep --helpE[K-help[Kgrep  [K1 file1.txt 
+[01;31m[K1[m[K
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ grep q pqr.txt
+[01;31m[Kq[m[Kwe
+]0;s4c1@ceclab2-System-Product-Name: ~/ceccs18c01[01;32ms4c1@ceclab2-System-Product-Name[00m:[01;34m~/ceccs18c01[00m$ sftp cs18c01@190[K2.168.0.30
+The authenticity of host '
